@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+const int inf=999;
+const int N=999999;
+vector<vector<int>> g[N];
+int n,m;
+
+int main()
+{
+    cin>>n>>m;
+    for(int i=0;i<m;i++)
+    {
+        int u,v,w;
+        cin>>u>>v>>w;
+        g[u].push_back({v,w});
+
+    }
+
+
+}
